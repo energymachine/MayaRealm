@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MayaRealm — Game Development Studio</title>
+<meta name="description" content="MayaRealm is an independent game development studio creating original games, characters and worlds. Home of BoltFall.">
+<meta name="theme-color" content="#050505">
+<link rel="icon" href="assets/img/Maya_Final_Logo.png" type="image">
+<!-- Social previews: add assets/img/og-image.jpg (1200x630) and set your live domain below -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="MayaRealm — We create worlds you'll never want to leave.">
+<meta property="og:description" content="Original games. Unforgettable characters. Entire worlds built from imagination.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Orbitron:wght@500;700;800;900&family=Sora:wght@200;300;400;600;700;800&family=Space+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div id="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#top" class="brand" aria-label="MayaRealm home">
+      <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><defs><linearGradient id="bm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38BDF8"/><stop offset=".5" stop-color="#7C3AED"/><stop offset="1" stop-color="#D946EF"/></linearGradient></defs><path d="M16 2 30 16 16 30 2 16Z" stroke="url(#bm)" stroke-width="1.4"/><circle cx="16" cy="16" r="5.2" stroke="#F5F5F5" stroke-width="1.2"/><circle cx="16" cy="16" r="1.6" fill="#D946EF"/><path d="M16 6.5v3.2M16 22.3v3.2" stroke="#F5F5F5" stroke-width="1.2"/></svg>
+      MAYAREALM
+    </a>
+    <ul class="nav-links">
+      <li><a href="#boltfall">BoltFall</a></li>
+      <li><a href="#worlds">Games</a></li>
+      <li><a href="#universe">Universe</a></li>
+      <li><a href="#studio">Studio</a></li>
+      <li><a href="#craft">Craft</a></li>
+      <li><a href="#realms">Realms</a></li>
+    </ul>
+    <a href="#enter" class="btn btn-ghost btn-sm nav-cta">Enter the realm</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span></button>
+  </div>
+  <nav class="mnav" aria-label="Mobile">
+    <a href="#boltfall">BoltFall</a><a href="#worlds">Games</a><a href="#universe">Universe</a><a href="#studio">Studio</a><a href="#craft">Craft</a><a href="#realms">Realms</a><a href="#enter">Enter the realm</a><a href="privacy.html">Privacy Policy</a>
+  </nav>
+</header>
+
+<main id="top">
+  <!-- 1. HERO -->
+  <section class="hero" aria-label="MayaRealm">
+    <canvas id="hero-cv" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="hero-content seq">
+        <div class="stamp" style="--i:0"><span class="mark">MAYAREALM</span><span class="chip"><span class="dot"></span>Game development studio</span></div>
+        <h1 class="h-display" style="--i:1">We create worlds <span class="thin grad">you'll never want to leave.</span></h1>
+        <p class="lede" style="--i:2">Original games. Unforgettable characters. Entire worlds built from imagination.</p>
+        <div class="btn-row" style="--i:3">
+          <a href="#worlds" class="btn btn-primary">Explore our games <svg class="arr" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+          <a href="#universe" class="btn btn-ghost">Enter MayaRealm <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M8 1.5 14.5 8 8 14.5 1.5 8Z"/><circle cx="8" cy="8" r="2.2"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="hud" aria-hidden="true">
+      <div class="wrap">
+        <div class="hud-meta">
+          <div><span class="label">Flagship</span><b>BOLTFALL</b></div>
+          <div><span class="label">Platforms</span><b>PC · ANDROID · iOS</b></div>
+          <div><span class="label">Status</span><b>COMING SOON</b></div>
+        </div>
+      </div>
+    </div>
+    <a href="#boltfall" class="scroll-ind" aria-label="Scroll to BoltFall"><span class="mouse"></span><span class="label">Scroll</span></a>
+  </section>
+
+  <!-- 2. FEATURED GAME -->
+  <section class="feature" id="boltfall" aria-label="BoltFall">
+    <canvas id="bf-cv" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="feat-grid">
+        <div class="feat-copy rv">
+          <div class="stamp"><span class="label eyebrow">Flagship title</span><span class="chip"><span class="dot"></span>Coming soon</span></div>
+          <h2 class="feat-title" data-text="BOLTFALL">BOLTFALL</h2>
+          <p class="feat-head">Dodge. Survive. <span>Dominate.</span></p>
+          <p class="lede">Enter a chaotic survival arena where danger comes from every direction. Master movement, outsmart deadly missiles and survive long enough to become the last one standing.</p>
+          <div class="btn-row">
+            <button class="btn btn-primary" data-open="discover">Discover BoltFall <svg class="arr" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
+            <button class="btn btn-ghost" data-open="trailer"><span class="play"><svg viewBox="0 0 10 10"><path d="M1 0l9 5-9 5z"/></svg></span>Watch trailer</button>
+          </div>
+        </div>
+        <div class="stats-panel rv" id="bf-stats">
+          <div class="label"><span>Arena readout</span><span>Survival</span></div>
+          <div class="stat"><span class="sl">Threat directions</span><span class="sv"><span data-count="360">360</span>°</span><div class="sbar"><i style="--v:1"></i></div></div>
+          <div class="stat"><span class="sl">Survival waves</span><span class="sv">∞</span><div class="sbar"><i style="--v:.88"></i></div><small>Each wave arrives faster than the last</small></div>
+          <div class="stat"><span class="sl">Game modes</span><span class="sv"><span data-count="2" data-pad="2">02</span></span><div class="sbar"><i style="--v:.5"></i></div><small>Online multiplayer · Offline against bots</small></div>
+          <div class="stat"><span class="sl">Launch storefronts</span><span class="sv"><span data-count="4" data-pad="2">04</span></span><div class="sbar"><i style="--v:.8"></i></div><small>Steam · Epic Games Store · Google Play · App Store</small></div>
+        </div>
+      </div>
+      <div class="feat-meta">
+        <div><span class="label">Genre</span><b>Survival / Action arena</b></div>
+        <div><span class="label">Platforms</span>
+          <div class="plats">
+            <span class="plat"><svg viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="12" rx="1"/><path d="M8.5 20h7M12 16.5V20"/></svg>PC</span>
+            <span class="plat"><svg viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2"/><path d="M11 18.5h2"/></svg>Android</span>
+            <span class="plat"><svg viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M10.5 4.8h3"/></svg>iOS</span>
+          </div>
+        </div>
+        <div><span class="label">Release status</span><b>Coming soon</b></div>
+        <div><span class="label">Modes</span><b>Online · Offline vs bots</b></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. OUR WORLDS -->
+  <section class="sec" id="worlds" aria-labelledby="worlds-h">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <span class="label eyebrow">Our games</span>
+        <h2 class="h-display" id="worlds-h">Our worlds</h2>
+        <p class="lede">Every game begins with a world waiting to be discovered.</p>
+      </div>
+      <div class="worlds">
+        <article class="wcard big rv">
+          <canvas id="w1" aria-hidden="true"></canvas>
+          <div class="wtop"><span class="chip"><span class="dot"></span>Coming soon</span><span class="explore">EXPLORE →</span></div>
+          <div class="wbody">
+            <h3 class="wtitle">BOLTFALL</h3>
+            <div class="wspecs"><span>Survival / Action</span><span>PC • Android • iOS</span></div>
+            <p class="wdesc">A multiplayer survival arena. Homing missiles, lightning strikes and warnings flashing across the floor. Read the arena, move first, and outlast everyone else.</p>
+            <a href="#boltfall" class="btn btn-ghost btn-sm">View game <svg class="arr" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+          </div>
+        </article>
+        <article class="wcard sealed rv">
+          <canvas id="w2" aria-hidden="true"></canvas>
+          <div class="wtop"><span class="chip"><span class="dot"></span>Coming soon</span><span class="explore">EXPLORE →</span></div>
+          <div class="wbody">
+            <h3 class="wtitle">GAME 02</h3>
+            <div class="wspecs"><span>Genre TBA</span><span>Platforms TBA</span></div>
+            <p class="wdesc">A new world is taking shape behind the seal. Details unlock at reveal.</p>
+            <button class="btn btn-ghost btn-sm" data-toast="GAME 02 is still sealed. Details unlock at reveal.">View game <svg class="arr" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
+          </div>
+        </article>
+        <article class="wcard rv">
+          <canvas id="w3" aria-hidden="true"></canvas>
+          <div class="wtop"><span class="chip"><span class="dot ice"></span>In development</span><span class="explore">EXPLORE →</span></div>
+          <div class="wbody">
+            <h3 class="wtitle">GAME 03</h3>
+            <div class="wspecs"><span>Genre TBA</span><span>Platforms TBA</span></div>
+            <p class="wdesc">Early in production. The foundations of this realm are being built right now.</p>
+            <button class="btn btn-ghost btn-sm" data-toast="GAME 03 is in development. More soon.">View game <svg class="arr" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. UNIVERSE -->
+  <section class="universe" id="universe" aria-labelledby="uni-h">
+    <canvas id="uni-cv" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="u-center rv">
+        <span class="label eyebrow">The MayaRealm universe</span>
+        <h2 class="h-display" id="uni-h">One studio. <span class="thin grad">Infinite realms.</span></h2>
+        <p class="lede">MayaRealm exists to transform imagination into interactive worlds. We create original experiences where gameplay, art, characters and storytelling come together to create something players can truly lose themselves in.</p>
+        <div class="kw-set">
+          <span class="kw" style="left:4%;top:22%;--c:var(--ice)">GAMEPLAY</span>
+          <span class="kw" style="left:6%;top:52%;animation-delay:-4s">STORY</span>
+          <span class="kw" style="left:3%;top:80%;--c:var(--magenta);animation-delay:-8s">CHARACTERS</span>
+          <span class="kw" style="right:4%;top:19%;--c:var(--magenta);animation-delay:-2s">WORLDS</span>
+          <span class="kw" style="right:3%;top:50%;animation-delay:-6s">EXPERIENCES</span>
+          <span class="kw" style="right:5%;top:79%;--c:var(--ice);animation-delay:-10s">INNOVATION</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. ABOUT -->
+  <section class="sec" id="studio" aria-labelledby="about-h">
+    <div class="wrap about-grid">
+      <div class="core rv" aria-hidden="true">
+        <canvas id="core-cv"></canvas>
+        <i></i><i></i><i></i><i></i>
+        <span class="hudl tl">Realm core</span><span class="hudl tr">Live render</span>
+        <span class="hudl bl">Idea → world</span><span class="hudl br">MR / 01</span>
+      </div>
+      <div class="about-copy rv">
+        <span class="label eyebrow">About MayaRealm</span>
+        <h2 class="h-display" id="about-h">Beyond games. <span class="thin grad">We build worlds.</span></h2>
+        <p class="first">MayaRealm is an independent game development studio focused on creating original interactive experiences and memorable gaming IP.</p>
+        <p>We believe great games are more than mechanics. They are worlds players remember, characters they connect with and moments they carry long after the screen goes dark.</p>
+        <!-- Studio figures: edit the numbers and labels below as the studio grows -->
+        <div class="stats">
+          <div><span class="num"><span data-count="1" data-pad="2">01</span><em>+</em></span><span class="label">Original IP</span></div>
+          <div><span class="num"><span data-count="10">10</span><em>+</em></span><span class="label">Characters &amp; concepts</span></div>
+          <div><span class="num">∞</span><span class="label">Worlds to explore</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. GAME DEVELOPMENT -->
+  <section class="sec" id="craft" aria-labelledby="craft-h" style="padding-top:0">
+    <div class="wrap">
+      <div class="craft-head rv">
+        <div style="display:grid;gap:22px"><span class="label eyebrow">Game development</span><h2 class="h-display" id="craft-h">From idea <span class="thin grad">to reality.</span></h2></div>
+        <p class="lede">Every discipline a world needs lives under one roof, from the first mechanic on paper to a live online match.</p>
+      </div>
+      <div class="caps rv">
+        <div class="cap">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M13 16h22a8 8 0 0 1 8 8v2a6 6 0 0 1-10.6 3.9L29.5 27h-11l-2.9 2.9A6 6 0 0 1 5 26v-2a8 8 0 0 1 8-8z"/><path d="M14 20v7M10.5 23.5h7"/><circle cx="31" cy="22" r="1.4"/><circle cx="35" cy="26" r="1.4"/><path d="M24 16V9m0 0-3 3m3-3 3 3"/></svg>
+          <h3>Game design</h3><p>Gameplay systems, mechanics and player experiences.</p><span class="tools">Core loops · Balancing · Progression</span>
+        </div>
+        <div class="cap">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="12"/><ellipse cx="24" cy="24" rx="21" ry="6.5" transform="rotate(-18 24 24)"/><path d="M12.5 21c4 2 19 2 23 0M24 12c-4 5-4 19 0 24"/><circle cx="42" cy="17.5" r="1.6"/></svg>
+          <h3>World building</h3><p>Unique environments, lore and immersive game worlds.</p><span class="tools">Lore · Environments · Level design</span>
+        </div>
+        <div class="cap">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M17 17a7 7 0 1 0 14 0 7 7 0 0 0-14 0z"/><path d="M8 42c2.5-8 8.5-12 16-12s13.5 4 16 12"/><path d="M38 6v6M35 9h6"/><path d="M21 16.5h1.5M25.5 16.5H27"/></svg>
+          <h3>Character design</h3><p>Memorable characters with distinct personalities and abilities.</p><span class="tools">Concepts · Abilities · Personality</span>
+        </div>
+        <div class="cap">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M16 14 6 24l10 10M32 14l10 10-10 10M27 9l-6 30"/></svg>
+          <h3>Programming</h3><p>Robust gameplay systems, multiplayer architecture and optimization.</p><span class="tools">C# · Unity 6 · Performance</span>
+        </div>
+        <div class="cap">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 40c6 0 10-3 10-8a5 5 0 0 0-10 0c0 2-1 4-3 5"/><path d="M19 29 40 8"/><path d="M28 34c4 0 8 1 12 4M32 28c3 0 6 .5 8 1.5"/></svg>
+          <h3>Art &amp; animation</h3><p>Stylized visuals, environments, VFX and animation.</p><span class="tools">Stylized art · VFX · Motion</span>
+        </div>
+        <div class="cap">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><circle cx="36" cy="12" r="4.5"/><circle cx="24" cy="36" r="4.5"/><path d="M16.5 12h15M14.3 16l7.4 16M33.7 16l-7.4 16"/><circle cx="24" cy="20" r="2"/></svg>
+          <h3>Multiplayer</h3><p>Competitive and cooperative online experiences.</p><span class="tools">Netcode · Relay · Lobbies</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. MEET THE REALMS -->
+  <section class="sec" id="realms" aria-labelledby="realms-h" style="padding-top:0">
+    <div class="wrap">
+      <div class="realms-head rv">
+        <div style="display:grid;gap:22px"><span class="label eyebrow">Character &amp; world showcase</span><h2 class="h-display" id="realms-h">Meet the realms</h2><p class="lede">Concept art from the studio's sketchbook. Some of these will become games. Some are still waiting for theirs.</p></div>
+        <div class="ctrls">
+          <button class="ctrl" id="prev" aria-label="Previous concept"><svg viewBox="0 0 18 18"><path d="M15 9H3m4-4L3 9l4 4"/></svg></button>
+          <span class="counter" id="counter"><b>01</b> / 06</span>
+          <button class="ctrl" id="next" aria-label="Next concept"><svg viewBox="0 0 18 18"><path d="M3 9h12m-4-4 4 4-4 4"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="track" id="track" tabindex="0" aria-label="Concept art gallery">
+      <article class="rcard"><canvas data-realm="0" aria-hidden="true"></canvas><div class="rbody"><div class="rtag"><span class="label">Character concept</span><span class="label">C-01</span></div><h3 class="rname">Kaira Vex</h3><p class="rdesc">A courier who outran the storm that swallowed her city. She still hears it following her.</p></div></article>
+      <article class="rcard"><canvas data-realm="1" aria-hidden="true"></canvas><div class="rbody"><div class="rtag"><span class="label">World concept</span><span class="label">W-01</span></div><h3 class="rname">The Hollow Spire</h3><p class="rdesc">A tower with no floor and no summit, drifting between two dying suns.</p></div></article>
+      <article class="rcard"><canvas data-realm="2" aria-hidden="true"></canvas><div class="rbody"><div class="rtag"><span class="label">Character concept</span><span class="label">C-02</span></div><h3 class="rname">The Null Warden</h3><p class="rdesc">Keeper of the gate between realms. Nobody remembers who gave it the key.</p></div></article>
+      <article class="rcard"><canvas data-realm="3" aria-hidden="true"></canvas><div class="rbody"><div class="rtag"><span class="label">World concept</span><span class="label">W-02</span></div><h3 class="rname">Ashen Tide</h3><p class="rdesc">A grey ocean that rises once a century and takes a city back with it.</p></div></article>
+      <article class="rcard"><canvas data-realm="4" aria-hidden="true"></canvas><div class="rbody"><div class="rtag"><span class="label">Character concept</span><span class="label">C-03</span></div><h3 class="rname">Orrin, the Cartographer</h3><p class="rdesc">He maps worlds that do not exist yet. Lately, some of them have started to.</p></div></article>
+      <article class="rcard"><canvas data-realm="5" aria-hidden="true"></canvas><div class="rbody"><div class="rtag"><span class="label">World concept</span><span class="label">W-03</span></div><h3 class="rname">Verdant Maw</h3><p class="rdesc">A forest of living glass that slowly grows toward anything warm.</p></div></article>
+    </div>
+    <div class="wrap"><div class="progress" aria-hidden="true"><i id="prog"></i></div></div>
+  </section>
+
+  <!-- 8. ENTER -->
+  <section class="enter" id="enter" aria-labelledby="enter-h">
+    <span class="ring" style="--s:min(520px,86vw);--d:14s"></span>
+    <span class="ring" style="--s:min(820px,130vw);--d:26s"></span>
+    <span class="ring" style="--s:min(1160px,180vw);--d:40s"></span>
+    <div class="wrap enter-in rv">
+      <span class="label eyebrow">Follow the journey</span>
+      <h2 class="h-display" id="enter-h">Enter the realm.</h2>
+      <p class="sub">Imagination becomes reality.</p>
+      <div class="btn-row">
+        <a href="#" class="btn btn-primary" data-link="steam" data-toast="The Steam page link is coming soon.">Wishlist BoltFall <svg class="arr" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+        <a href="#" class="btn btn-ghost" data-link="youtube" data-toast="The YouTube channel link is coming soon."><span class="play"><svg viewBox="0 0 10 10"><path d="M1 0l9 5-9 5z"/></svg></span>MayaRealm on YouTube</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="#top" class="brand"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 2 30 16 16 30 2 16Z" stroke="url(#bm)" stroke-width="1.4"/><circle cx="16" cy="16" r="5.2" stroke="#F5F5F5" stroke-width="1.2"/><circle cx="16" cy="16" r="1.6" fill="#D946EF"/></svg>MAYAREALM</a>
+        <p>An independent game development studio building original games, characters and worlds.</p>
+      </div>
+      <div><span class="label">Games</span><ul><li><a href="#boltfall">BoltFall</a></li><li><a href="#worlds">Game 02</a></li><li><a href="#worlds">Game 03</a></li></ul></div>
+      <div><span class="label">Studio</span><ul><li><a href="#studio">About</a></li><li><a href="#craft">Capabilities</a></li><li><a href="#realms">Concept art</a></li><li><a href="privacy.html">Privacy Policy</a></li></ul></div>
+      <div><span class="label">Connect</span><ul><li><a href="#" data-link="youtube" data-toast="The YouTube channel link is coming soon.">YouTube</a></li><li><a href="#" data-link="steam" data-toast="The Steam page link is coming soon.">Steam</a></li><li><a href="#" data-link="press" data-toast="Press and partnership contact is coming soon.">Press &amp; partners</a></li></ul></div>
+    </div>
+    <div class="foot-word" aria-hidden="true">MAYAREALM</div>
+    <div class="foot-bottom"><span>© 2026 MayaRealm. All rights reserved.</span><span><a href="privacy.html" class="foot-legal">Privacy Policy</a></span></div>
+  </div>
+</footer>
+
+<dialog class="modal" id="dlg" aria-label="BoltFall">
+  <button class="mclose" id="dlg-x" aria-label="Close"><svg viewBox="0 0 16 16" fill="none"><path d="M3 3l10 10M13 3 3 13"/></svg></button>
+  <div data-pane="trailer">
+    <div class="screen"><canvas id="tr-cv" aria-hidden="true"></canvas>
+      <div class="over"><span class="bigplay"><svg viewBox="0 0 10 10"><path d="M1 0l9 5-9 5z"/></svg></span><span class="label" style="color:var(--bone)">BoltFall · Official trailer</span><span class="label">Premieres on the MayaRealm YouTube channel</span></div>
+    </div>
+  </div>
+  <div data-pane="discover" hidden>
+    <div class="screen" style="aspect-ratio:21/8"><canvas id="ds-cv" aria-hidden="true"></canvas></div>
+    <div class="mbody">
+      <span class="chip" style="justify-self:start"><span class="dot"></span>Coming soon</span>
+      <h3>BOLTFALL</h3>
+      <p class="lede">A multiplayer survival arena for PC, Android and iOS. Danger comes from every direction and every wave arrives faster than the last.</p>
+      <div class="feats">
+        <div><b>Online arenas</b><span>Host a match or join a lobby. Every missile, hit and elimination is synced for every player.</span></div>
+        <div><b>Offline survival</b><span>Face endless waves alone or against bots. The missiles speed up each round.</span></div>
+        <div><b>Read the floor</b><span>Every strike is marked on the arena before it lands. Move early and you live.</span></div>
+        <div><b>Everywhere you play</b><span>Steam and the Epic Games Store on PC, Google Play on Android, the App Store on iOS.</span></div>
+      </div>
+    </div>
+  </div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/js/core.js"></script>
+<script src="assets/js/scenes/hero.js"></script>
+<script src="assets/js/scenes/arena.js"></script>
+<script src="assets/js/scenes/worlds.js"></script>
+<script src="assets/js/scenes/universe.js"></script>
+<script src="assets/js/scenes/realms.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
