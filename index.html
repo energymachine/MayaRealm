@@ -402,7 +402,7 @@ dialog.modal::backdrop{background:rgba(5,5,5,.82);-webkit-backdrop-filter:blur(8
         <div class="hud-meta">
           <div><span class="label">Flagship</span><b>BOLTFALL</b></div>
           <div><span class="label">Platforms</span><b>PC · ANDROID · iOS</b></div>
-          <div><span class="label">Status</span><b>COMING SOON</b></div>
+          <div><span class="label">Status</span><b>Available on PlayStore</b></div>
         </div>
       </div>
     </div>
@@ -415,7 +415,7 @@ dialog.modal::backdrop{background:rgba(5,5,5,.82);-webkit-backdrop-filter:blur(8
     <div class="wrap">
       <div class="feat-grid">
         <div class="feat-copy rv">
-          <div class="stamp"><span class="label eyebrow">Flagship title</span><span class="chip"><span class="dot"></span>Wishlist/Closed Test</span></div>
+          <div class="stamp"><span class="label eyebrow">Flagship title</span><span class="chip"><span class="dot"></span>Steam Wishlist/Available on Playstore</span></div>
           <h2 class="feat-title" data-text="BOLTFALL">BOLTFALL</h2>
           <p class="feat-head">Dodge. Survive. <span>Dominate.</span></p>
           <p class="lede">Enter a chaotic survival arena where danger comes from every direction. Master movement, outsmart deadly missiles and survive long enough to become the last one standing.</p>
@@ -441,7 +441,7 @@ dialog.modal::backdrop{background:rgba(5,5,5,.82);-webkit-backdrop-filter:blur(8
             <span class="plat"><svg viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M10.5 4.8h3"/></svg>iOS</span>
           </div>
         </div>
-        <div><span class="label">Release status</span><b>Early October</b></div>
+        <div><span class="label">Release status</span><b>Released on 20th October 2026(Android)</b></div>
         <div><span class="label">Modes</span><b>Online · Offline</b></div>
       </div>
     </div>
@@ -458,7 +458,7 @@ dialog.modal::backdrop{background:rgba(5,5,5,.82);-webkit-backdrop-filter:blur(8
       <div class="worlds">
         <article class="wcard big rv">
           <canvas id="w1" aria-hidden="true"></canvas>
-          <div class="wtop"><span class="chip"><span class="dot"></span>Coming soon</span><span class="explore">EXPLORE →</span></div>
+          <a href="https://play.google.com/store/apps/details?id=com.mayarealm.boltfall" class="btn btn-ghost" target="_blank" rel="noopener"><span class="play"><svg viewBox="0 0 10 10"><path d="M1 0l9 5-9 5z"/></svg></span>Playstore</a><span class="explore">EXPLORE →</span></div>
           <div class="wbody">
             <h3 class="wtitle">BOLTFALL</h3>
             <div class="wspecs"><span>Survival / Action</span><span>PC • Android • iOS</span></div>
@@ -605,6 +605,7 @@ dialog.modal::backdrop{background:rgba(5,5,5,.82);-webkit-backdrop-filter:blur(8
       <div class="btn-row">
         <a href="https://store.steampowered.com/app/5245540/Boltfall" class="btn btn-ghost" target="_blank" rel="noopener"><span class="play"><svg viewBox="0 0 10 10"><path d="M1 0l9 5-9 5z"/></svg></span>Wishlist Boltfall</a>
         <a href="https://youtu.be/_QH2D4Q07lE" class="btn btn-ghost" target="_blank" rel="noopener"><span class="play"><svg viewBox="0 0 10 10"><path d="M1 0l9 5-9 5z"/></svg></span>MayaRealm on YouTube</a>
+        <a href="https://play.google.com/store/apps/details?id=com.mayarealm.boltfall" class="btn btn-ghost" target="_blank" rel="noopener"><span class="play"><svg viewBox="0 0 10 10"><path d="M1 0l9 5-9 5z"/></svg></span>Playstore</a>
       </div>
     </div>
   </section>
@@ -1033,6 +1034,7 @@ const REALMS=[
 const LINKS={
   steam:'',    // e.g. https://store.steampowered.com/app/XXXXXXX/BoltFall/
   youtube:'',  // e.g. https://www.youtube.com/@MayaRealm
+  playstore:'',  // e.g. https://play.google.com/store/apps/details?id=com.mayarealm.boltfall
   press:''     // e.g. mailto:press@yourdomain.com
 };
 document.querySelectorAll('[data-link]').forEach(a=>{const u=LINKS[a.dataset.link];if(!u)return;a.href=u;a.removeAttribute('data-toast');if(/^https?:/.test(u)){a.target='_blank';a.rel='noopener'}});
